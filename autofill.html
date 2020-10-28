@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Autofill Bug - Chrome</title>
+  </head>
+  <body>
+    <div>
+    <input type="tel" name="tel" autocomplete="billing tel-national" placeholder="Phone"/>
+  </div>
+    <div>
+      <h3>Shipping</h3>
+      <input type="text" name="address1" autocomplete="shipping address-line1" placeholder="Address 1"/>
+      <input type="text" name="address2" autocomplete="shipping address-line2" placeholder="Address 2"/>
+      <input type="text" name="city" autocomplete="shipping address-level2" placeholder="City"/>
+      <input type="text" name="state" autocomplete="shipping address-level1" placeholder="State"/>
+      <input type="text" name="zipcode" autocomplete="shipping postal-code" placeholder="Zip Code"/>
+    </div>
+  <div>
+    <h3>Billing</h3>
+    <input type="text" name="address1" autocomplete="billing address-line1" placeholder="Address 1"/>
+    <input type="text" name="address2" autocomplete="billing address-line2" placeholder="Address 2"/>
+    <input type="text" name="city" autocomplete="billing address-level2" placeholder="City"/>
+    <input type="text" name="state" autocomplete="billing address-level1" placeholder="State"/>
+    <input type="text" name="zipcode" autocomplete="billing postal-code" placeholder="Zip Code"/>
+  </div>
+  </body>
+  </html>
